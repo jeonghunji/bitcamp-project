@@ -1,13 +1,13 @@
-package step09.ex2;
+ackage step09.ex2;
 import java.util.Scanner;
 
-public class EduApp{
+public class EduApp0{
+  int length = 0;                     // 래퍼런스 배열에 몇개의 정보를 저장했는지 개수를 지정하는 변수!
+  Lecture[] lecss = new Lecture[100];
+  Scanner keyScan = new Scanner(System.in);
   public static void main(String[] args) {
     System.out.println("비트캠프 관리 시스템에 오신걸 환영합니다.");
-    Lecture[] lecss = new Lecture[100];
-    int length = 0;                     // 래퍼런스 배열에 몇개의 정보를 저장했는지 개수를 지정하는 변수!
                                         // 래퍼런스 배열에 몇개의 lecture 인스턴스가 들어있는지 확인
-    Scanner keyScan = new Scanner(System.in);
     //반복해서 입력
 
     while ( length < lecss.length) {
