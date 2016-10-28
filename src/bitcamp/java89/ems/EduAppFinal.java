@@ -1,4 +1,4 @@
-package step09.ex2;
+package bitcamp.java89.jwave89.ems;;
 import java.util.Scanner;
 
 public class EduAppFinal
