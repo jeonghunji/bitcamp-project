@@ -1,7 +1,7 @@
-package bitcamp.java89.jwave89.ems;;
+package bitcamp.java89.ems;
 import java.util.Scanner;
 
-public class EduAppFinal
+public class EduApp
 {
   static Lecture[] lecss = new Lecture[100];
   static Scanner keyScan = new Scanner(System.in);
